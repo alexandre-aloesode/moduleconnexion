@@ -1,0 +1,39 @@
+
+*{
+    margin:0;
+    color: white;
+}
+
+.background{
+    background-image: url(https://wallpaperaccess.com/full/56591.png);
+    opacity: 0.73;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 150%;
+    height: 900px;
+}
+
+
+
+@media screen and (max-width:920px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 100%;
+    }
+}
